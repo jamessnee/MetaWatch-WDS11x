@@ -45,7 +45,7 @@
 #undef TASK_DEBUG
 
 /* print debug messages for accelerometer, setup accelerometer for 25 hz */
-#undef ACCELEROMETER_DEBUG
+#define ACCELEROMETER_DEBUG
 
 /* light LED and wait forever instead of reset */
 #undef DEBUG_WATCHDOG_RESET
